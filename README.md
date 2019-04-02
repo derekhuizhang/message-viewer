@@ -2,11 +2,11 @@
 This application implements a basic page to view user messages, including trash, toggle view, starring, and highlight features.
 
 ## How to run:
-1. install dependencies by running in the root folder:
+1. After downloading and unzipping, install dependencies by running in the root folder:
 ```
 npm install
 ```
-2. start a development serveR:
+2. Start a development server:
 ```
 npm start
 ```
