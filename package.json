@@ -1,11 +1,17 @@
 {
-  "name": "signafire-frontend",
+  "name": "message-viewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-highlighter": "^0.4.3",
+    "react-icons": "^3.5.0",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "styled-components": "^4.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
