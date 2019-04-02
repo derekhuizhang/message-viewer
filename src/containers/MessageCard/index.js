@@ -75,8 +75,8 @@ class MessageCard extends Component {
 					<AvatarCaption>{handle}</AvatarCaption>
 				</LeftSection>
 				<MiddleSection>
-					{formattedSource}
-					{formattedContent}
+					{ formattedSource }
+					{ formattedContent }
 				</MiddleSection>
 				<RightSection>
 					{ meta.isStarred ? 
@@ -94,7 +94,7 @@ class MessageCard extends Component {
 						<TrashMessageButton onClick={() => toggleTrashed(id)}>
 							Trash
 						</TrashMessageButton>
-				}	
+					}	
 				</RightSection>
 			</MessageCardWrapper>
 		)
